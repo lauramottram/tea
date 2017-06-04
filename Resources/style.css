@@ -16,9 +16,10 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   align-items: center;
   justify-content: space-between;
+  opacity: 1.0;
 
 }
 
@@ -69,7 +70,6 @@ div.locations{
   background-image: url(/Users/lauramottram/Documents/Projects/Tea/Resources/Images/img-locations-background.jpg);
   position: relative;
   margin: auto;
-  margin-top: 50px;
 }
 
 .logo img {
@@ -80,6 +80,7 @@ div.locations{
 
 .content{
   display: flex;
+  flex-wrap: wrap;
   padding-top: 70px;
 }
 
@@ -118,8 +119,18 @@ div.month img
   padding-bottom: 10px;
 }
 
+.locations{
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  margin: 0;
+  text-align: center;
+}
+
 .locations-box{
   display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
 }

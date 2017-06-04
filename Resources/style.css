@@ -60,7 +60,17 @@ div.mission-box{
   align-content: space-around;
 }
 
-
+div.locations{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  background-image: url(/Users/lauramottram/Documents/Projects/Tea/Resources/Images/img-locations-background.jpg);
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+}
 
 .logo img {
   margin-left: 10px;
@@ -106,4 +116,10 @@ div.month img
 
 .month-options span{
   padding-bottom: 10px;
+}
+
+.locations-box{
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }

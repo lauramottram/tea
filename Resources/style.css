@@ -26,12 +26,14 @@ header nav{
   padding: 40px
 }
 
-
-
 nav span{
   display: inline-block;
   padding: 20px 10px;
   text-decoration: underline;
+}
+
+div{
+  display: block;
 }
 
 div.mission{
@@ -58,6 +60,8 @@ div.mission-box{
   align-content: space-around;
 }
 
+
+
 .logo img {
   margin-left: 10px;
   height: 50px;
@@ -66,9 +70,33 @@ div.mission-box{
 
 .content{
   display: flex;
-  padding-top: 120px;
+  padding-top: 70px;
 }
 
 .mission h2, h4{
   margin: 10px auto;
+}
+
+.month{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.month-header{
+  justify-content: center;
+  padding: 20px;
+}
+
+.Berry{
+  text-align: center;
+}
+
+.Berry img{
+  display: flex;
+  width: 300px;
+  height: 200px;
 }

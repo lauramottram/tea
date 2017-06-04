@@ -37,3 +37,33 @@ nav span{
   padding: 20px 10px;
   text-decoration: underline;
 }
+
+div.mission{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 700px;
+  background-image: url(/Users/lauramottram/Documents/Projects/Tea/Resources/Images/img-mission-background.jpg);
+  position: relative;
+
+
+  margin: auto;
+}
+
+div.mission-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  opacity: 100;
+  height: 150px;
+  width: 1200px;
+  text-align: center;
+}
+
+
+.content{
+  display: flex;
+  padding-top: 120px;
+}

@@ -26,11 +26,7 @@ header nav{
   padding: 40px
 }
 
-.logo img {
-  margin-left: 10px;
-  height: 50px;
-  width: auto;
-}
+
 
 nav span{
   display: inline-block;
@@ -46,8 +42,6 @@ div.mission{
   height: 700px;
   background-image: url(/Users/lauramottram/Documents/Projects/Tea/Resources/Images/img-mission-background.jpg);
   position: relative;
-
-
   margin: auto;
 }
 
@@ -57,13 +51,24 @@ div.mission-box{
   justify-content: center;
   background-color: black;
   opacity: 100;
-  height: 150px;
+  height: 120px;
   width: 1200px;
   text-align: center;
+  align-items: center;
+  align-content: space-around;
 }
 
+.logo img {
+  margin-left: 10px;
+  height: 50px;
+  width: auto;
+}
 
 .content{
   display: flex;
   padding-top: 120px;
+}
+
+.mission h2, h4{
+  margin: 10px auto;
 }

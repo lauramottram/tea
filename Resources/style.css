@@ -61,6 +61,19 @@ div.mission-box{
   align-content: space-around;
 }
 
+div.month-options{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+div.month img
+ {display: flex;
+  width: 300px;
+  height: 200px;
+  padding: 20px 10px 10px 10px;
+}
+
 div.locations{
   display: flex;
   flex-direction: column;
@@ -70,6 +83,13 @@ div.locations{
   background-image: url(/Users/lauramottram/Documents/Projects/Tea/Resources/Images/img-locations-background.jpg);
   position: relative;
   margin: auto;
+  margin-top: 50px;
+}
+
+div.location-sections{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .logo img {
@@ -102,19 +122,6 @@ div.locations{
   padding: 20px;
 }
 
-div.month-options{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-div.month img
- {display: flex;
-  width: 300px;
-  height: 200px;
-  padding: 20px 10px 10px 10px;
-}
-
 .month-options span{
   padding-bottom: 10px;
 }
@@ -124,7 +131,7 @@ div.month img
   flex-direction: column;
   width: 1200px;
   height: 500px;
-  margin: 0;
+  margin: auto;
   text-align: center;
 }
 
@@ -133,4 +140,16 @@ div.month img
   flex-direction: column;
   text-align: center;
   justify-content: center;
+}
+
+.location-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  opacity: 1;
 }

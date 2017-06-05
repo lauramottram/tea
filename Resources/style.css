@@ -92,6 +92,26 @@ div.location-sections{
   justify-content: space-around;
 }
 
+footer{
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+div.info{
+  height: 200px;
+}
+
+div.copyright{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
 .logo img {
   margin-left: 10px;
   height: 50px;
@@ -152,4 +172,5 @@ div.location-sections{
   height: 300px;
   margin: 15px 20px;
   opacity: 1;
+  padding: 20px;
 }

@@ -48,7 +48,7 @@ div.mission{
   text-align: center;
   width: 1200px;
   height: 700px;
-  background-image: url('../images/img-mission-background.jpg');
+  background-image: url(../resources/images/img-mission-background.jpg);
   position: relative;
   margin: auto;
 }
@@ -86,7 +86,7 @@ div.mission{
   text-align: center;
   width: 1200px;
   height: 700px;
-  background-image: url(../../images/img-mission-background.jpg);
+  background-image: url(../resources/images/img-mission-background.jpg);
   position: relative;
   margin: auto;
 }

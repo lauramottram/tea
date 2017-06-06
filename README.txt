@@ -1,0 +1,1 @@
+I know there are issues with the locations image not displaying as in the instructions. I've been playing about with it, but have run out of time to try and work it out. Any tips would be much appreciated!

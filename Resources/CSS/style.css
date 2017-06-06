@@ -86,7 +86,7 @@ div.mission{
   text-align: center;
   width: 1200px;
   height: 700px;
-  background-image: url(../images/img-mission-background.jpg);
+  background-image: url(../../images/img-mission-background.jpg);
   position: relative;
   margin: auto;
 }
@@ -97,7 +97,7 @@ div.locations{
   justify-content: center;
   height: 500px;
   width: 1200px;
-  background-image: url(../images/img-locations-background.jpg);
+  background-image: url(../../images/img-locations-background.jpg);
   margin: auto;
   background-size: cover;
   background-repeat: no-repeat;
